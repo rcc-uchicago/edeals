@@ -1,0 +1,2 @@
+
+for rep in {1..4}; do  sleep 15m;  sudo /install/bin/energy_testing_commands.sh -h midway010;  sleep 10m;  sudo /install/bin/energy_testing_commands.sh -d midway010;  sleep 15m;  sudo /install/bin/energy_testing_commands.sh -d midway010;  sleep 10m;  sudo /install/bin/energy_testing_commands.sh -u midway010;  sleep 10m;  sudo /install/bin/energy_testing_commands.sh -r midway010;  sleep 3h; done

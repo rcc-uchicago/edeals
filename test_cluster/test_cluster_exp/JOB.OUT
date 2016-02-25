@@ -1,0 +1,230 @@
+LAMMPS (22 Mar 2013)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (33.5919 33.5919 33.5919)
+  1 by 1 by 3 MPI processor grid
+Created 32000 atoms
+Setting up run ...
+Memory usage per processor = 6.32571 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6134356   -5.0197073 
+LAMMPS (22 Mar 2013)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (33.5919 33.5919 33.5919)
+  1 by 1 by 3 MPI processor grid
+Created 32000 atoms
+Setting up run ...
+Memory usage per processor = 6.32571 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6134356   -5.0197073 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-midway008: error: *** STEP 17597685.0 ON midway008 CANCELLED AT 2015-12-08T03:33:05 DUE TO TIME LIMIT ***
+slurmstepd-midway008: error: *** JOB 17597685 ON midway008 CANCELLED AT 2015-12-08T03:33:05 DUE TO TIME LIMIT ***
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 262.367 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 213.066 (81.2091)
+Neigh time (%) = 27.0561 (10.3123)
+Comm  time (%) = 12.9904 (4.95122)
+Outpt time (%) = 0.000115077 (4.38609e-05)
+Other time (%) = 9.25444 (3.52729)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 265.24 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 214.656 (80.9289)
+Neigh time (%) = 27.105 (10.2191)
+Comm  time (%) = 14.2495 (5.3723)
+Outpt time (%) = 0.000104825 (3.95208e-05)
+Other time (%) = 9.22944 (3.47966)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 253.643 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 208.566 (82.2282)
+Neigh time (%) = 26.8788 (10.5971)
+Comm  time (%) = 10.7587 (4.24166)
+Outpt time (%) = 8.62281e-05 (3.39958e-05)
+Other time (%) = 7.43931 (2.93299)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-midway005: error: *** JOB 17597690 ON midway005 CANCELLED AT 2015-12-08T03:34:35 DUE TO TIME LIMIT ***
+slurmstepd-midway005: error: *** STEP 17597690.0 ON midway005 CANCELLED AT 2015-12-08T03:34:35 DUE TO TIME LIMIT ***
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 260.672 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 212.707 (81.5993)
+Neigh time (%) = 27.0329 (10.3705)
+Comm  time (%) = 12.464 (4.78149)
+Outpt time (%) = 9.85463e-05 (3.78048e-05)
+Other time (%) = 8.46837 (3.24867)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-midway006: error: *** JOB 17597691 ON midway006 CANCELLED AT 2015-12-08T03:35:05 DUE TO TIME LIMIT ***
+slurmstepd-midway006: error: *** STEP 17597691.0 ON midway006 CANCELLED AT 2015-12-08T03:35:05 DUE TO TIME LIMIT ***
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 254.01 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 208.455 (82.0658)
+Neigh time (%) = 26.9755 (10.6198)
+Comm  time (%) = 11.0729 (4.35924)
+Outpt time (%) = 0.000109673 (4.31764e-05)
+Other time (%) = 7.5063 (2.95512)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-midway007: error: *** JOB 17597695 ON midway007 CANCELLED AT 2015-12-08T03:35:35 DUE TO TIME LIMIT ***
+slurmstepd-midway007: error: *** STEP 17597695.0 ON midway007 CANCELLED AT 2015-12-08T03:35:35 DUE TO TIME LIMIT ***
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 265.645 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 214.121 (80.6042)
+Neigh time (%) = 27.0271 (10.1741)
+Comm  time (%) = 14.5485 (5.47665)
+Outpt time (%) = 9.60032e-05 (3.61396e-05)
+Other time (%) = 9.9484 (3.74499)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 266.294 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 214.517 (80.5565)
+Neigh time (%) = 27.2148 (10.2198)
+Comm  time (%) = 14.6616 (5.50577)
+Outpt time (%) = 0.000116666 (4.3811e-05)
+Other time (%) = 9.90032 (3.71781)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 258.576 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 211.522 (81.8025)
+Neigh time (%) = 26.9921 (10.4388)
+Comm  time (%) = 12.1138 (4.68479)
+Outpt time (%) = 0.000125647 (4.85917e-05)
+Other time (%) = 7.94833 (3.07388)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 253.651 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 208.72 (82.2864)
+Neigh time (%) = 26.8659 (10.5917)
+Comm  time (%) = 10.7594 (4.24181)
+Outpt time (%) = 9.99769e-05 (3.94152e-05)
+Other time (%) = 7.30537 (2.88009)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 254.074 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 209.069 (82.2868)
+Neigh time (%) = 26.8434 (10.5652)
+Comm  time (%) = 10.6882 (4.20673)
+Outpt time (%) = 0.000112057 (4.4104e-05)
+Other time (%) = 7.47297 (2.94126)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0

@@ -1,0 +1,65 @@
+LAMMPS (22 Mar 2013)
+# 3d Lennard-Jones melt
+
+variable	x index 1
+variable	y index 1
+variable	z index 1
+
+variable	xx equal 20*$x
+variable	xx equal 20*1
+variable	yy equal 20*$y
+variable	yy equal 20*1
+variable	zz equal 20*$z
+variable	zz equal 20*1
+
+units		lj
+atom_style	atomic
+
+lattice		fcc 0.8442
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+region		box block 0 ${xx} 0 ${yy} 0 ${zz}
+region		box block 0 20 0 ${yy} 0 ${zz}
+region		box block 0 20 0 20 0 ${zz}
+region		box block 0 20 0 20 0 20
+create_box	1 box
+Created orthogonal box = (0 0 0) to (33.5919 33.5919 33.5919)
+  1 by 1 by 3 MPI processor grid
+create_atoms	1 box
+Created 32000 atoms
+mass		1 1.0
+
+velocity	all create 1.44 87287 loop geom
+
+pair_style	lj/cut 2.5
+pair_coeff	1 1 1.0 1.0 2.5
+
+neighbor	0.3 bin
+neigh_modify	delay 0 every 20 check no
+
+fix		1 all nve
+
+run		25000
+Memory usage per processor = 6.32571 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6134356   -5.0197073 
+   25000   0.69623557   -5.6672982            0   -4.6229775   0.74076389 
+Loop time of 254.074 on 3 procs for 25000 steps with 32000 atoms
+
+Pair  time (%) = 209.069 (82.2868)
+Neigh time (%) = 26.8434 (10.5652)
+Comm  time (%) = 10.6882 (4.20673)
+Outpt time (%) = 0.000112057 (4.4104e-05)
+Other time (%) = 7.47297 (2.94126)
+
+Nlocal:    10666.7 ave 10682 max 10646 min
+Histogram: 1 0 0 0 0 0 0 1 0 1
+Nghost:    11098 ave 11122 max 11074 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+Neighs:    400342 ave 403457 max 396961 min
+Histogram: 1 0 0 0 0 1 0 0 0 1
+
+Total # of neighbors = 1201025
+Ave neighs/atom = 37.532
+Neighbor list builds = 1250
+Dangerous builds = 0
+
