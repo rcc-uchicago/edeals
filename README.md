@@ -13,3 +13,7 @@ The project consists of
 3. [experiments and analysis scripts](test_cluster) for smaller test clusters,
 4. a description of the [cost optimization framework](cost_optim) we have analyzed
 5. the files used to generate our [manuscript](manuscript).
+
+Please feel free to reach out to wmcfadden@uchicago.edu for more information or to clarify any points.  Or feel free to communcate any issues using Github's pull requests.
+
+Thanks
