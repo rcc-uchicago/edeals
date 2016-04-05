@@ -7,6 +7,7 @@ The project aims to assess the energy usage statistics of a moderately sized HPC
 These routines make up part of a larger project to develop demand response plug-ins for SLURM scheduler.
 
 The project consists of 
+
 1. [cluster electricity data API](tree/master/energy_data_collection_API), 
 2. [analysis ipython notebooks](tree/master/prod_cluster) for analyzing production cluster electricity and SLURM data, 
 3. [experiments and analysis scripts](tree/master/test_cluster) for smaller test clusters,
